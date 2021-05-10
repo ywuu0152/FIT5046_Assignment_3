@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="143dp"
+        android:layout_height="136dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/logo"/>
+
+    <EditText
+        android:id="@+id/et_UserName"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/login_style"
+        android:drawableLeft="@drawable/ic_launcher_foreground"
+        android:drawablePadding="5dp"
+        android:hint="Account name"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/et_PassWord"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/login_style"
+        android:drawableLeft="@drawable/ic_launcher_foreground"
+        android:inputType="textPassword"
+        android:drawablePadding="5dp"
+        android:hint="Password"
+        android:padding="10dp"
+        />
+
+</LinearLayout>
